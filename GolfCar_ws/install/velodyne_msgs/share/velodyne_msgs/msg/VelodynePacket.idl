@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from velodyne_msgs/msg/VelodynePacket.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module velodyne_msgs {
+  module msg {
+    typedef uint8 uint8__1206[1206];
+    @verbatim (language="comment", text=
+      "Raw Velodyne LIDAR packet.")
+    struct VelodynePacket {
+      @verbatim (language="comment", text=
+        "packet timestamp")
+      builtin_interfaces::msg::Time stamp;
+
+      @verbatim (language="comment", text=
+        "packet contents")
+      uint8__1206 data;
+    };
+  };
+};

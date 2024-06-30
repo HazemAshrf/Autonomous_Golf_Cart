@@ -1,0 +1,4 @@
+source;share/velodyne_laserscan/local_setup.bash
+source;share/velodyne_laserscan/local_setup.dsv
+source;share/velodyne_laserscan/local_setup.sh
+source;share/velodyne_laserscan/local_setup.zsh

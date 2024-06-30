@@ -1,0 +1,4 @@
+source;share/velodyne/local_setup.bash
+source;share/velodyne/local_setup.dsv
+source;share/velodyne/local_setup.sh
+source;share/velodyne/local_setup.zsh

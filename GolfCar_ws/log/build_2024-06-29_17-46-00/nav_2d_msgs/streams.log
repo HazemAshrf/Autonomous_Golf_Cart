@@ -1,0 +1,237 @@
+[0.023s] Invoking command in '/home/hazem/GolfCar_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hazem/GolfCar_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/hazem/GolfCar_ws/build/nav_2d_msgs -- -j2 -l2
+[0.143s] [  1%] Built target nav_2d_msgs__cpp
+[0.145s] [ 12%] Built target nav_2d_msgs__rosidl_generator_c
+[0.218s] [ 12%] Built target ament_cmake_python_copy_nav_2d_msgs
+[0.231s] [ 23%] Built target nav_2d_msgs__rosidl_typesupport_cpp
+[0.299s] [ 35%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c
+[0.316s] [ 46%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_cpp
+[0.375s] [ 57%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c
+[0.393s] [ 69%] Built target nav_2d_msgs__rosidl_typesupport_c
+[0.451s] [ 80%] Built target nav_2d_msgs__rosidl_typesupport_introspection_cpp
+[0.550s] [ 80%] Built target nav_2d_msgs
+[0.616s] [ 81%] Built target nav_2d_msgs__py
+[0.687s] [ 91%] Built target nav_2d_msgs__rosidl_generator_py
+[0.767s] [ 94%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.804s] running egg_info
+[0.804s] writing nav_2d_msgs.egg-info/PKG-INFO
+[0.805s] writing dependency_links to nav_2d_msgs.egg-info/dependency_links.txt
+[0.805s] writing top-level names to nav_2d_msgs.egg-info/top_level.txt
+[0.808s] reading manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[0.808s] writing manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[0.835s] [ 97%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c__pyext
+[0.845s] [ 97%] Built target ament_cmake_python_build_nav_2d_msgs_egg
+[0.878s] [100%] Built target nav_2d_msgs__rosidl_typesupport_c__pyext
+[0.899s] Invoked command in '/home/hazem/GolfCar_ws/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hazem/GolfCar_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --build /home/hazem/GolfCar_ws/build/nav_2d_msgs -- -j2 -l2
+[1.765s] Invoking command in '/home/hazem/GolfCar_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hazem/GolfCar_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/hazem/GolfCar_ws/build/nav_2d_msgs
+[1.780s] -- Install configuration: ""
+[1.780s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/ament_index/resource_index/rosidl_interfaces/nav_2d_msgs
+[1.780s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[1.781s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[1.781s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d.h
+[1.781s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[1.781s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__type_support.h
+[1.781s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__struct.h
+[1.782s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__functions.h
+[1.782s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.h
+[1.782s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.h
+[1.782s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__type_support.h
+[1.782s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.h
+[1.782s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__type_support.h
+[1.783s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.h
+[1.783s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__functions.c
+[1.783s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.c
+[1.783s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__functions.h
+[1.784s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__struct.h
+[1.784s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__functions.c
+[1.784s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.h
+[1.784s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__functions.c
+[1.784s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__struct.h
+[1.784s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.h
+[1.784s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__functions.h
+[1.785s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__functions.c
+[1.785s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__functions.h
+[1.785s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__struct.h
+[1.785s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.c
+[1.786s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.h
+[1.786s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d_stamped.h
+[1.787s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/path2_d.h
+[1.787s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d32.h
+[1.788s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d_stamped.h
+[1.788s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d32.h
+[1.788s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.789s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/library_path.sh
+[1.789s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/library_path.dsv
+[1.789s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_c.so
+[1.790s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[1.790s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[1.790s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.790s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[1.791s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_fastrtps_c.h
+[1.791s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_fastrtps_c.h
+[1.791s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_c.h
+[1.791s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_c.h
+[1.791s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_fastrtps_c.h
+[1.791s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_fastrtps_c.h
+[1.792s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_c.so
+[1.792s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[1.792s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[1.793s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[1.793s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__struct.hpp
+[1.793s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.hpp
+[1.793s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__traits.hpp
+[1.793s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.hpp
+[1.793s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__struct.hpp
+[1.794s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__struct.hpp
+[1.794s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__traits.hpp
+[1.794s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__traits.hpp
+[1.794s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__traits.hpp
+[1.794s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__builder.hpp
+[1.795s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__builder.hpp
+[1.795s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__struct.hpp
+[1.795s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__builder.hpp
+[1.795s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__builder.hpp
+[1.795s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__builder.hpp
+[1.795s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__builder.hpp
+[1.796s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__traits.hpp
+[1.796s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__traits.hpp
+[1.796s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d.hpp
+[1.796s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/path2_d.hpp
+[1.796s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d32.hpp
+[1.797s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d_stamped.hpp
+[1.797s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d32.hpp
+[1.797s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d_stamped.hpp
+[1.797s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[1.797s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[1.797s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[1.798s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[1.798s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_fastrtps_cpp.hpp
+[1.798s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[1.798s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_fastrtps_cpp.hpp
+[1.798s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[1.799s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/dds_fastrtps
+[1.799s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[1.799s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.799s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.800s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[1.800s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[1.800s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[1.800s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_introspection_c.h
+[1.800s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__type_support.c
+[1.801s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.c
+[1.801s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_introspection_c.h
+[1.801s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_c.h
+[1.801s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.c
+[1.802s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_introspection_c.h
+[1.802s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__type_support.c
+[1.803s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_introspection_c.h
+[1.803s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.c
+[1.803s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__type_support.c
+[1.803s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_c.h
+[1.803s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.804s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_c.so
+[1.804s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_c.so
+[1.805s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[1.805s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[1.805s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[1.805s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__type_support.cpp
+[1.805s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_cpp.hpp
+[1.806s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.cpp
+[1.806s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_introspection_cpp.hpp
+[1.806s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.cpp
+[1.806s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_introspection_cpp.hpp
+[1.806s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__type_support.cpp
+[1.806s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.cpp
+[1.807s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_introspection_cpp.hpp
+[1.807s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_cpp.hpp
+[1.807s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__type_support.cpp
+[1.807s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_introspection_cpp.hpp
+[1.807s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so
+[1.808s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_cpp.so
+[1.808s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/pythonpath.sh
+[1.808s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/pythonpath.dsv
+[1.809s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.14-py3.10.egg-info
+[1.809s] -- Installing: /home/hazem/GolfCar_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.14-py3.10.egg-info/top_level.txt
+[1.809s] -- Installing: /home/hazem/GolfCar_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.14-py3.10.egg-info/PKG-INFO
+[1.810s] -- Installing: /home/hazem/GolfCar_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.14-py3.10.egg-info/SOURCES.txt
+[1.810s] -- Installing: /home/hazem/GolfCar_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.14-py3.10.egg-info/dependency_links.txt
+[1.810s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs
+[1.810s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg
+[1.811s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d32.py
+[1.811s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/__init__.py
+[1.811s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d_s.c
+[1.811s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d32_s.c
+[1.811s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_path2_d.py
+[1.811s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d_stamped.py
+[1.812s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d_stamped_s.c
+[1.812s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d.py
+[1.812s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_path2_d_s.c
+[1.812s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d32_s.c
+[1.812s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d_stamped_s.c
+[1.813s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d_stamped.py
+[1.813s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d32.py
+[1.813s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.813s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.813s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/__init__.py
+[1.814s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.814s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/libnav_2d_msgs__rosidl_generator_py.so
+[1.814s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.814s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.814s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_c.c
+[1.858s] Listing '/home/hazem/GolfCar_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs'...
+[1.858s] Listing '/home/hazem/GolfCar_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg'...
+[1.865s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.865s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.866s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.866s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_py.so
+[1.866s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.idl
+[1.866s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.idl
+[1.866s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.idl
+[1.866s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.idl
+[1.866s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.idl
+[1.866s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.idl
+[1.866s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.msg
+[1.866s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.msg
+[1.866s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.msg
+[1.866s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.msg
+[1.866s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.msg
+[1.866s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.msg
+[1.866s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/ament_index/resource_index/package_run_dependencies/nav_2d_msgs
+[1.866s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/ament_index/resource_index/parent_prefix_path/nav_2d_msgs
+[1.866s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/ament_prefix_path.sh
+[1.867s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/ament_prefix_path.dsv
+[1.867s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/path.sh
+[1.867s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/path.dsv
+[1.867s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.bash
+[1.867s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.sh
+[1.868s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.zsh
+[1.868s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.dsv
+[1.868s] -- Installing: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/package.dsv
+[1.868s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/ament_index/resource_index/packages/nav_2d_msgs
+[1.868s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_cExport.cmake
+[1.868s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.868s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.871s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.871s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_cppExport.cmake
+[1.871s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.871s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.871s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.871s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.872s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cExport.cmake
+[1.872s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.872s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.872s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.872s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cppExport.cmake
+[1.872s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.872s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_pyExport.cmake
+[1.872s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.872s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake-extras.cmake
+[1.872s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.872s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.872s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.872s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.879s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.879s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.879s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgsConfig.cmake
+[1.879s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgsConfig-version.cmake
+[1.879s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav_2d_msgs/share/nav_2d_msgs/package.xml
+[1.880s] Invoked command in '/home/hazem/GolfCar_ws/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hazem/GolfCar_ws/install/nav2_simple_commander:/opt/ros/humble /usr/bin/cmake --install /home/hazem/GolfCar_ws/build/nav_2d_msgs

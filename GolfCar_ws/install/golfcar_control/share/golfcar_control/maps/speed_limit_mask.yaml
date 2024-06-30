@@ -1,0 +1,7 @@
+image: speed_limit_mask.pgm
+mode: scale
+resolution: 0.2
+origin: [-58.7, -130, 0]
+negate: 0
+occupied_thresh: 1.0
+free_thresh: 0.0

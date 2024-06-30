@@ -1,0 +1,8 @@
+source;share/golfcar_control/hook/cmake_prefix_path.ps1
+source;share/golfcar_control/hook/cmake_prefix_path.dsv
+source;share/golfcar_control/hook/cmake_prefix_path.sh
+source;share/golfcar_control/local_setup.bash
+source;share/golfcar_control/local_setup.dsv
+source;share/golfcar_control/local_setup.ps1
+source;share/golfcar_control/local_setup.sh
+source;share/golfcar_control/local_setup.zsh

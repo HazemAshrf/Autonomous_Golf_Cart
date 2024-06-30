@@ -1,0 +1,8 @@
+source;share/velodyne/hook/cmake_prefix_path.ps1
+source;share/velodyne/hook/cmake_prefix_path.dsv
+source;share/velodyne/hook/cmake_prefix_path.sh
+source;share/velodyne/local_setup.bash
+source;share/velodyne/local_setup.dsv
+source;share/velodyne/local_setup.ps1
+source;share/velodyne/local_setup.sh
+source;share/velodyne/local_setup.zsh

@@ -1,0 +1,243 @@
+[0.038s] Invoking command in '/home/hazem/GolfCar_ws/build/nav2_behavior_tree': CMAKE_PREFIX_PATH=/home/hazem/GolfCar_ws/install/nav2_util:/home/hazem/GolfCar_ws/install/nav2_msgs:/home/hazem/GolfCar_ws/install/nav2_common:/home/hazem/GolfCar_ws/install/velodyne:/home/hazem/GolfCar_ws/install/velodyne_pointcloud:/home/hazem/GolfCar_ws/install/velodyne_driver:/home/hazem/GolfCar_ws/install/velodyne_msgs:/home/hazem/GolfCar_ws/install/velodyne_laserscan:/home/hazem/GolfCar_ws/install/pointcloud_to_laserscan:/home/hazem/GolfCar_ws/install/nav2_system_tests:/home/hazem/GolfCar_ws/install/nav2_bringup:/home/hazem/GolfCar_ws/install/navigation2:/home/hazem/GolfCar_ws/install/nav2_smoother:/home/hazem/GolfCar_ws/install/nav2_graceful_controller:/home/hazem/GolfCar_ws/install/nav2_dwb_controller:/home/hazem/GolfCar_ws/install/nav2_controller:/home/hazem/GolfCar_ws/install/dwb_plugins:/home/hazem/GolfCar_ws/install/dwb_critics:/home/hazem/GolfCar_ws/install/dwb_core:/home/hazem/GolfCar_ws/install/nav_2d_utils:/home/hazem/GolfCar_ws/install/dwb_msgs:/home/hazem/GolfCar_ws/install/nav_2d_msgs:/home/hazem/GolfCar_ws/install/nav2_waypoint_follower:/home/hazem/GolfCar_ws/install/nav2_theta_star_planner:/home/hazem/GolfCar_ws/install/nav2_smac_planner:/home/hazem/GolfCar_ws/install/nav2_rotation_shim_controller:/home/hazem/GolfCar_ws/install/nav2_regulated_pure_pursuit_controller:/home/hazem/GolfCar_ws/install/nav2_planner:/home/hazem/GolfCar_ws/install/nav2_navfn_planner:/home/hazem/GolfCar_ws/install/nav2_mppi_controller:/home/hazem/GolfCar_ws/install/nav2_constrained_smoother:/home/hazem/GolfCar_ws/install/nav2_bt_navigator:/home/hazem/GolfCar_ws/install/nav2_behaviors:/home/hazem/GolfCar_ws/install/nav2_core:/home/hazem/GolfCar_ws/install/nav2_collision_monitor:/home/hazem/GolfCar_ws/install/costmap_queue:/home/hazem/GolfCar_ws/install/nav2_costmap_2d:/home/hazem/GolfCar_ws/install/nav2_voxel_grid:/home/hazem/GolfCar_ws/install/nav2_velocity_smoother:/home/hazem/GolfCar_ws/install/nav2_rviz_plugins:/home/hazem/GolfCar_ws/install/nav2_map_server:/home/hazem/GolfCar_ws/install/nav2_lifecycle_manager:/home/hazem/GolfCar_ws/install/nav2_behavior_tree:/home/hazem/GolfCar_ws/install/nav2_amcl:/home/hazem/GolfCar_ws/install/golfcar_control:/home/hazem/GolfCar_ws/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/hazem/GolfCar_ws/install/nav2_util/lib:/home/hazem/GolfCar_ws/install/nav2_msgs/lib:/home/hazem/GolfCar_ws/install/velodyne_pointcloud/lib:/home/hazem/GolfCar_ws/install/velodyne_driver/lib:/home/hazem/GolfCar_ws/install/velodyne_msgs/lib:/home/hazem/GolfCar_ws/install/velodyne_laserscan/lib:/home/hazem/GolfCar_ws/install/pointcloud_to_laserscan/lib:/home/hazem/GolfCar_ws/install/nav2_smoother/lib:/home/hazem/GolfCar_ws/install/nav2_graceful_controller/lib:/home/hazem/GolfCar_ws/install/nav2_controller/lib:/home/hazem/GolfCar_ws/install/dwb_plugins/lib:/home/hazem/GolfCar_ws/install/dwb_critics/lib:/home/hazem/GolfCar_ws/install/dwb_core/lib:/home/hazem/GolfCar_ws/install/nav_2d_utils/lib:/home/hazem/GolfCar_ws/install/dwb_msgs/lib:/home/hazem/GolfCar_ws/install/nav_2d_msgs/lib:/home/hazem/GolfCar_ws/install/nav2_waypoint_follower/lib:/home/hazem/GolfCar_ws/install/nav2_theta_star_planner/lib:/home/hazem/GolfCar_ws/install/nav2_smac_planner/lib:/home/hazem/GolfCar_ws/install/nav2_rotation_shim_controller/lib:/home/hazem/GolfCar_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/hazem/GolfCar_ws/install/nav2_planner/lib:/home/hazem/GolfCar_ws/install/nav2_navfn_planner/lib:/home/hazem/GolfCar_ws/install/nav2_mppi_controller/lib:/home/hazem/GolfCar_ws/install/nav2_constrained_smoother/lib:/home/hazem/GolfCar_ws/install/nav2_bt_navigator/lib:/home/hazem/GolfCar_ws/install/nav2_behaviors/lib:/home/hazem/GolfCar_ws/install/nav2_collision_monitor/lib:/home/hazem/GolfCar_ws/install/costmap_queue/lib:/home/hazem/GolfCar_ws/install/nav2_costmap_2d/lib:/home/hazem/GolfCar_ws/install/nav2_voxel_grid/lib:/home/hazem/GolfCar_ws/install/nav2_velocity_smoother/lib:/home/hazem/GolfCar_ws/install/nav2_rviz_plugins/lib:/home/hazem/GolfCar_ws/install/nav2_map_server/lib:/home/hazem/GolfCar_ws/install/nav2_lifecycle_manager/lib:/home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib:/home/hazem/GolfCar_ws/install/nav2_amcl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/hazem/GolfCar_ws/build/nav2_behavior_tree -- -j2 -l2
+[0.178s] [  1%] Built target nav2_behavior_tree
+[0.203s] [  2%] Built target nav2_compute_path_to_pose_action_bt_node
+[0.250s] [  3%] Built target nav2_compute_path_through_poses_action_bt_node
+[0.281s] [  4%] Built target nav2_controller_cancel_bt_node
+[0.355s] [  5%] Built target nav2_spin_cancel_bt_node
+[0.376s] [  6%] Built target nav2_wait_cancel_bt_node
+[0.448s] [  7%] Built target nav2_back_up_cancel_bt_node
+[0.481s] [  8%] Built target nav2_assisted_teleop_cancel_bt_node
+[0.520s] [  9%] Built target nav2_drive_on_heading_cancel_bt_node
+[0.555s] [ 10%] Built target nav2_smooth_path_action_bt_node
+[0.589s] [ 11%] Built target nav2_follow_path_action_bt_node
+[0.626s] [ 12%] Built target nav2_back_up_action_bt_node
+[0.658s] [ 13%] Built target nav2_drive_on_heading_bt_node
+[0.688s] [ 14%] Built target nav2_spin_action_bt_node
+[0.742s] [ 15%] Built target nav2_wait_action_bt_node
+[0.754s] [ 16%] Built target nav2_assisted_teleop_action_bt_node
+[0.797s] [ 17%] Built target nav2_clear_costmap_service_bt_node
+[0.810s] [ 18%] Built target nav2_is_stuck_condition_bt_node
+[0.859s] [ 19%] Built target nav2_transform_available_condition_bt_node
+[0.909s] [ 20%] Built target nav2_goal_reached_condition_bt_node
+[0.922s] [ 21%] Built target nav2_globally_updated_goal_condition_bt_node
+[0.974s] [ 22%] Built target nav2_is_path_valid_condition_bt_node
+[1.016s] [ 23%] Built target nav2_goal_updated_condition_bt_node
+[1.071s] [ 24%] Built target nav2_time_expired_condition_bt_node
+[1.096s] [ 25%] Built target nav2_path_expiring_timer_condition
+[1.165s] [ 26%] Built target nav2_distance_traveled_condition_bt_node
+[1.178s] [ 27%] Built target nav2_initial_pose_received_condition_bt_node
+[1.248s] [ 28%] Built target nav2_is_battery_low_condition_bt_node
+[1.268s] [ 29%] Built target nav2_is_battery_charging_condition_bt_node
+[1.321s] [ 30%] Built target nav2_reinitialize_global_localization_service_bt_node
+[1.371s] [ 31%] Built target nav2_rate_controller_bt_node
+[1.404s] [ 32%] Built target nav2_distance_controller_bt_node
+[1.479s] [ 33%] Built target nav2_truncate_path_action_bt_node
+[1.481s] [ 34%] Built target nav2_speed_controller_bt_node
+[1.542s] [ 35%] Built target nav2_truncate_path_local_action_bt_node
+[1.587s] [ 36%] Built target nav2_goal_updater_node_bt_node
+[1.635s] [ 37%] Built target nav2_path_longer_on_approach_bt_node
+[1.695s] [ 38%] Built target nav2_recovery_node_bt_node
+[1.708s] [ 39%] Built target nav2_navigate_to_pose_action_bt_node
+[1.755s] [ 40%] Built target nav2_navigate_through_poses_action_bt_node
+[1.762s] [ 41%] Built target nav2_remove_passed_goals_action_bt_node
+[1.807s] [ 42%] Built target nav2_pipeline_sequence_bt_node
+[1.818s] [ 43%] Built target nav2_round_robin_node_bt_node
+[1.871s] [ 44%] Built target nav2_single_trigger_bt_node
+[1.875s] [ 45%] Built target nav2_planner_selector_bt_node
+[1.930s] [ 46%] Built target nav2_controller_selector_bt_node
+[1.932s] [ 47%] Built target nav2_smoother_selector_bt_node
+[2.007s] [ 48%] Built target nav2_goal_checker_selector_bt_node
+[2.021s] [ 48%] Built target nav2_progress_checker_selector_bt_node
+[2.057s] [ 49%] Built target nav2_goal_updated_controller_bt_node
+[2.086s] [ 50%] Built target gtest_main
+[2.110s] [ 50%] Built target gtest
+[2.166s] [ 51%] Built target test_bt_conversions
+[2.173s] [ 52%] Built target test_condition_distance_traveled
+[2.230s] [ 53%] Built target test_condition_time_expired
+[2.242s] [ 54%] Built target test_condition_path_expiring_timer
+[2.296s] [ 55%] Built target test_condition_goal_reached
+[2.317s] [ 56%] Built target test_condition_goal_updated
+[2.369s] [ 57%] Built target test_condition_globally_updated_goal
+[2.421s] [ 58%] Built target test_condition_initial_pose_received
+[2.463s] [ 59%] Built target test_condition_transform_available
+[2.531s] [ 60%] Built target test_condition_is_stuck
+[2.550s] [ 61%] Built target test_condition_is_battery_charging
+[2.610s] [ 62%] Built target test_condition_is_battery_low
+[2.652s] [ 63%] Built target test_condition_is_path_valid
+[2.685s] [ 64%] Built target test_decorator_distance_controller
+[2.736s] [ 65%] Built target test_decorator_speed_controller
+[2.795s] [ 66%] Built target test_decorator_rate_controller
+[2.829s] [ 67%] Built target test_goal_updater_node
+[2.902s] [ 68%] Built target test_single_trigger_node
+[2.953s] [ 69%] Built target test_goal_updated_controller
+[3.030s] [ 70%] Built target test_decorator_path_longer_on_approach
+[3.080s] [ 71%] Built target test_control_recovery_node
+[3.153s] [ 72%] Built target test_control_pipeline_sequence
+[3.219s] [ 73%] Built target test_control_round_robin_node
+[3.274s] [ 74%] Built target test_bt_action_node
+[3.329s] [ 75%] Built target test_action_spin_action
+[3.401s] [ 76%] Built target test_action_back_up_action
+[3.479s] [ 77%] Built target test_action_drive_on_heading
+[3.524s] [ 78%] Built target test_action_wait_action
+[3.571s] [ 79%] Built target test_action_assisted_teleop_action
+[3.616s] [ 80%] Built target test_action_controller_cancel_action
+[3.661s] [ 81%] Built target test_action_wait_cancel_action
+[3.708s] [ 81%] Built target test_action_spin_cancel_action
+[3.752s] [ 82%] Built target test_action_back_up_cancel_action
+[3.799s] [ 83%] Built target test_action_assisted_teleop_cancel_action
+[3.846s] [ 84%] Built target test_action_drive_on_heading_cancel_action
+[3.895s] [ 85%] Built target test_action_clear_costmap_service
+[3.944s] [ 86%] Built target test_action_reinitialize_global_localization_service
+[3.991s] [ 87%] Built target test_action_compute_path_to_pose_action
+[4.037s] [ 88%] Built target test_action_compute_path_through_poses_action
+[4.083s] [ 89%] Built target test_action_smooth_path_action
+[4.129s] [ 90%] Built target test_action_follow_path_action
+[4.179s] [ 91%] Built target test_action_navigate_to_pose_action
+[4.231s] [ 92%] Built target test_action_navigate_through_poses_action
+[4.277s] [ 93%] Built target test_truncate_path_action
+[4.324s] [ 94%] Built target test_truncate_path_local_action
+[4.380s] [ 95%] Built target test_remove_passed_goals_action
+[4.423s] [ 96%] Built target test_planner_selector_node
+[4.474s] [ 97%] Built target test_controller_selector_node
+[4.518s] [ 98%] Built target test_smoother_selector_node
+[4.578s] [ 99%] Built target test_goal_checker_selector_node
+[4.639s] [100%] Built target test_progress_checker_selector_node
+[4.663s] Invoked command in '/home/hazem/GolfCar_ws/build/nav2_behavior_tree' returned '0': CMAKE_PREFIX_PATH=/home/hazem/GolfCar_ws/install/nav2_util:/home/hazem/GolfCar_ws/install/nav2_msgs:/home/hazem/GolfCar_ws/install/nav2_common:/home/hazem/GolfCar_ws/install/velodyne:/home/hazem/GolfCar_ws/install/velodyne_pointcloud:/home/hazem/GolfCar_ws/install/velodyne_driver:/home/hazem/GolfCar_ws/install/velodyne_msgs:/home/hazem/GolfCar_ws/install/velodyne_laserscan:/home/hazem/GolfCar_ws/install/pointcloud_to_laserscan:/home/hazem/GolfCar_ws/install/nav2_system_tests:/home/hazem/GolfCar_ws/install/nav2_bringup:/home/hazem/GolfCar_ws/install/navigation2:/home/hazem/GolfCar_ws/install/nav2_smoother:/home/hazem/GolfCar_ws/install/nav2_graceful_controller:/home/hazem/GolfCar_ws/install/nav2_dwb_controller:/home/hazem/GolfCar_ws/install/nav2_controller:/home/hazem/GolfCar_ws/install/dwb_plugins:/home/hazem/GolfCar_ws/install/dwb_critics:/home/hazem/GolfCar_ws/install/dwb_core:/home/hazem/GolfCar_ws/install/nav_2d_utils:/home/hazem/GolfCar_ws/install/dwb_msgs:/home/hazem/GolfCar_ws/install/nav_2d_msgs:/home/hazem/GolfCar_ws/install/nav2_waypoint_follower:/home/hazem/GolfCar_ws/install/nav2_theta_star_planner:/home/hazem/GolfCar_ws/install/nav2_smac_planner:/home/hazem/GolfCar_ws/install/nav2_rotation_shim_controller:/home/hazem/GolfCar_ws/install/nav2_regulated_pure_pursuit_controller:/home/hazem/GolfCar_ws/install/nav2_planner:/home/hazem/GolfCar_ws/install/nav2_navfn_planner:/home/hazem/GolfCar_ws/install/nav2_mppi_controller:/home/hazem/GolfCar_ws/install/nav2_constrained_smoother:/home/hazem/GolfCar_ws/install/nav2_bt_navigator:/home/hazem/GolfCar_ws/install/nav2_behaviors:/home/hazem/GolfCar_ws/install/nav2_core:/home/hazem/GolfCar_ws/install/nav2_collision_monitor:/home/hazem/GolfCar_ws/install/costmap_queue:/home/hazem/GolfCar_ws/install/nav2_costmap_2d:/home/hazem/GolfCar_ws/install/nav2_voxel_grid:/home/hazem/GolfCar_ws/install/nav2_velocity_smoother:/home/hazem/GolfCar_ws/install/nav2_rviz_plugins:/home/hazem/GolfCar_ws/install/nav2_map_server:/home/hazem/GolfCar_ws/install/nav2_lifecycle_manager:/home/hazem/GolfCar_ws/install/nav2_behavior_tree:/home/hazem/GolfCar_ws/install/nav2_amcl:/home/hazem/GolfCar_ws/install/golfcar_control:/home/hazem/GolfCar_ws/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/hazem/GolfCar_ws/install/nav2_util/lib:/home/hazem/GolfCar_ws/install/nav2_msgs/lib:/home/hazem/GolfCar_ws/install/velodyne_pointcloud/lib:/home/hazem/GolfCar_ws/install/velodyne_driver/lib:/home/hazem/GolfCar_ws/install/velodyne_msgs/lib:/home/hazem/GolfCar_ws/install/velodyne_laserscan/lib:/home/hazem/GolfCar_ws/install/pointcloud_to_laserscan/lib:/home/hazem/GolfCar_ws/install/nav2_smoother/lib:/home/hazem/GolfCar_ws/install/nav2_graceful_controller/lib:/home/hazem/GolfCar_ws/install/nav2_controller/lib:/home/hazem/GolfCar_ws/install/dwb_plugins/lib:/home/hazem/GolfCar_ws/install/dwb_critics/lib:/home/hazem/GolfCar_ws/install/dwb_core/lib:/home/hazem/GolfCar_ws/install/nav_2d_utils/lib:/home/hazem/GolfCar_ws/install/dwb_msgs/lib:/home/hazem/GolfCar_ws/install/nav_2d_msgs/lib:/home/hazem/GolfCar_ws/install/nav2_waypoint_follower/lib:/home/hazem/GolfCar_ws/install/nav2_theta_star_planner/lib:/home/hazem/GolfCar_ws/install/nav2_smac_planner/lib:/home/hazem/GolfCar_ws/install/nav2_rotation_shim_controller/lib:/home/hazem/GolfCar_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/hazem/GolfCar_ws/install/nav2_planner/lib:/home/hazem/GolfCar_ws/install/nav2_navfn_planner/lib:/home/hazem/GolfCar_ws/install/nav2_mppi_controller/lib:/home/hazem/GolfCar_ws/install/nav2_constrained_smoother/lib:/home/hazem/GolfCar_ws/install/nav2_bt_navigator/lib:/home/hazem/GolfCar_ws/install/nav2_behaviors/lib:/home/hazem/GolfCar_ws/install/nav2_collision_monitor/lib:/home/hazem/GolfCar_ws/install/costmap_queue/lib:/home/hazem/GolfCar_ws/install/nav2_costmap_2d/lib:/home/hazem/GolfCar_ws/install/nav2_voxel_grid/lib:/home/hazem/GolfCar_ws/install/nav2_velocity_smoother/lib:/home/hazem/GolfCar_ws/install/nav2_rviz_plugins/lib:/home/hazem/GolfCar_ws/install/nav2_map_server/lib:/home/hazem/GolfCar_ws/install/nav2_lifecycle_manager/lib:/home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib:/home/hazem/GolfCar_ws/install/nav2_amcl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/hazem/GolfCar_ws/build/nav2_behavior_tree -- -j2 -l2
+[5.325s] Invoking command in '/home/hazem/GolfCar_ws/build/nav2_behavior_tree': CMAKE_PREFIX_PATH=/home/hazem/GolfCar_ws/install/nav2_util:/home/hazem/GolfCar_ws/install/nav2_msgs:/home/hazem/GolfCar_ws/install/nav2_common:/home/hazem/GolfCar_ws/install/velodyne:/home/hazem/GolfCar_ws/install/velodyne_pointcloud:/home/hazem/GolfCar_ws/install/velodyne_driver:/home/hazem/GolfCar_ws/install/velodyne_msgs:/home/hazem/GolfCar_ws/install/velodyne_laserscan:/home/hazem/GolfCar_ws/install/pointcloud_to_laserscan:/home/hazem/GolfCar_ws/install/nav2_system_tests:/home/hazem/GolfCar_ws/install/nav2_bringup:/home/hazem/GolfCar_ws/install/navigation2:/home/hazem/GolfCar_ws/install/nav2_smoother:/home/hazem/GolfCar_ws/install/nav2_graceful_controller:/home/hazem/GolfCar_ws/install/nav2_dwb_controller:/home/hazem/GolfCar_ws/install/nav2_controller:/home/hazem/GolfCar_ws/install/dwb_plugins:/home/hazem/GolfCar_ws/install/dwb_critics:/home/hazem/GolfCar_ws/install/dwb_core:/home/hazem/GolfCar_ws/install/nav_2d_utils:/home/hazem/GolfCar_ws/install/dwb_msgs:/home/hazem/GolfCar_ws/install/nav_2d_msgs:/home/hazem/GolfCar_ws/install/nav2_waypoint_follower:/home/hazem/GolfCar_ws/install/nav2_theta_star_planner:/home/hazem/GolfCar_ws/install/nav2_smac_planner:/home/hazem/GolfCar_ws/install/nav2_rotation_shim_controller:/home/hazem/GolfCar_ws/install/nav2_regulated_pure_pursuit_controller:/home/hazem/GolfCar_ws/install/nav2_planner:/home/hazem/GolfCar_ws/install/nav2_navfn_planner:/home/hazem/GolfCar_ws/install/nav2_mppi_controller:/home/hazem/GolfCar_ws/install/nav2_constrained_smoother:/home/hazem/GolfCar_ws/install/nav2_bt_navigator:/home/hazem/GolfCar_ws/install/nav2_behaviors:/home/hazem/GolfCar_ws/install/nav2_core:/home/hazem/GolfCar_ws/install/nav2_collision_monitor:/home/hazem/GolfCar_ws/install/costmap_queue:/home/hazem/GolfCar_ws/install/nav2_costmap_2d:/home/hazem/GolfCar_ws/install/nav2_voxel_grid:/home/hazem/GolfCar_ws/install/nav2_velocity_smoother:/home/hazem/GolfCar_ws/install/nav2_rviz_plugins:/home/hazem/GolfCar_ws/install/nav2_map_server:/home/hazem/GolfCar_ws/install/nav2_lifecycle_manager:/home/hazem/GolfCar_ws/install/nav2_behavior_tree:/home/hazem/GolfCar_ws/install/nav2_amcl:/home/hazem/GolfCar_ws/install/golfcar_control:/home/hazem/GolfCar_ws/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/hazem/GolfCar_ws/install/nav2_util/lib:/home/hazem/GolfCar_ws/install/nav2_msgs/lib:/home/hazem/GolfCar_ws/install/velodyne_pointcloud/lib:/home/hazem/GolfCar_ws/install/velodyne_driver/lib:/home/hazem/GolfCar_ws/install/velodyne_msgs/lib:/home/hazem/GolfCar_ws/install/velodyne_laserscan/lib:/home/hazem/GolfCar_ws/install/pointcloud_to_laserscan/lib:/home/hazem/GolfCar_ws/install/nav2_smoother/lib:/home/hazem/GolfCar_ws/install/nav2_graceful_controller/lib:/home/hazem/GolfCar_ws/install/nav2_controller/lib:/home/hazem/GolfCar_ws/install/dwb_plugins/lib:/home/hazem/GolfCar_ws/install/dwb_critics/lib:/home/hazem/GolfCar_ws/install/dwb_core/lib:/home/hazem/GolfCar_ws/install/nav_2d_utils/lib:/home/hazem/GolfCar_ws/install/dwb_msgs/lib:/home/hazem/GolfCar_ws/install/nav_2d_msgs/lib:/home/hazem/GolfCar_ws/install/nav2_waypoint_follower/lib:/home/hazem/GolfCar_ws/install/nav2_theta_star_planner/lib:/home/hazem/GolfCar_ws/install/nav2_smac_planner/lib:/home/hazem/GolfCar_ws/install/nav2_rotation_shim_controller/lib:/home/hazem/GolfCar_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/hazem/GolfCar_ws/install/nav2_planner/lib:/home/hazem/GolfCar_ws/install/nav2_navfn_planner/lib:/home/hazem/GolfCar_ws/install/nav2_mppi_controller/lib:/home/hazem/GolfCar_ws/install/nav2_constrained_smoother/lib:/home/hazem/GolfCar_ws/install/nav2_bt_navigator/lib:/home/hazem/GolfCar_ws/install/nav2_behaviors/lib:/home/hazem/GolfCar_ws/install/nav2_collision_monitor/lib:/home/hazem/GolfCar_ws/install/costmap_queue/lib:/home/hazem/GolfCar_ws/install/nav2_costmap_2d/lib:/home/hazem/GolfCar_ws/install/nav2_voxel_grid/lib:/home/hazem/GolfCar_ws/install/nav2_velocity_smoother/lib:/home/hazem/GolfCar_ws/install/nav2_rviz_plugins/lib:/home/hazem/GolfCar_ws/install/nav2_map_server/lib:/home/hazem/GolfCar_ws/install/nav2_lifecycle_manager/lib:/home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib:/home/hazem/GolfCar_ws/install/nav2_amcl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/hazem/GolfCar_ws/build/nav2_behavior_tree
+[5.342s] -- Install configuration: "Release"
+[5.342s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_behavior_tree.so
+[5.342s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_compute_path_to_pose_action_bt_node.so
+[5.342s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_compute_path_through_poses_action_bt_node.so
+[5.342s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_controller_cancel_bt_node.so
+[5.343s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_wait_cancel_bt_node.so
+[5.343s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_spin_cancel_bt_node.so
+[5.343s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_back_up_cancel_bt_node.so
+[5.344s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_cancel_bt_node.so
+[5.344s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_cancel_bt_node.so
+[5.345s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_smooth_path_action_bt_node.so
+[5.345s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_follow_path_action_bt_node.so
+[5.346s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_back_up_action_bt_node.so
+[5.347s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_bt_node.so
+[5.347s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_spin_action_bt_node.so
+[5.348s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_wait_action_bt_node.so
+[5.348s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_action_bt_node.so
+[5.349s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_clear_costmap_service_bt_node.so
+[5.349s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_is_stuck_condition_bt_node.so
+[5.349s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_transform_available_condition_bt_node.so
+[5.350s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_goal_reached_condition_bt_node.so
+[5.350s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_globally_updated_goal_condition_bt_node.so
+[5.350s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_goal_updated_condition_bt_node.so
+[5.351s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_is_path_valid_condition_bt_node.so
+[5.351s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_time_expired_condition_bt_node.so
+[5.352s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_path_expiring_timer_condition.so
+[5.352s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_distance_traveled_condition_bt_node.so
+[5.352s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_initial_pose_received_condition_bt_node.so
+[5.353s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_is_battery_charging_condition_bt_node.so
+[5.353s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_is_battery_low_condition_bt_node.so
+[5.354s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_reinitialize_global_localization_service_bt_node.so
+[5.354s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_rate_controller_bt_node.so
+[5.354s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_distance_controller_bt_node.so
+[5.355s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_speed_controller_bt_node.so
+[5.355s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_truncate_path_action_bt_node.so
+[5.355s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_truncate_path_local_action_bt_node.so
+[5.356s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_goal_updater_node_bt_node.so
+[5.356s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_path_longer_on_approach_bt_node.so
+[5.357s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_recovery_node_bt_node.so
+[5.357s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_navigate_to_pose_action_bt_node.so
+[5.357s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_navigate_through_poses_action_bt_node.so
+[5.358s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_remove_passed_goals_action_bt_node.so
+[5.358s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_pipeline_sequence_bt_node.so
+[5.359s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_round_robin_node_bt_node.so
+[5.359s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_single_trigger_bt_node.so
+[5.359s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_planner_selector_bt_node.so
+[5.360s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_controller_selector_bt_node.so
+[5.360s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_smoother_selector_bt_node.so
+[5.361s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_goal_checker_selector_bt_node.so
+[5.361s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_progress_checker_selector_bt_node.so
+[5.361s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib/libnav2_goal_updated_controller_bt_node.so
+[5.362s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include/
+[5.362s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree
+[5.362s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins
+[5.362s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action
+[5.362s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/truncate_path_local_action.hpp
+[5.362s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/goal_checker_selector_node.hpp
+[5.362s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/truncate_path_action.hpp
+[5.362s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/assisted_teleop_cancel_node.hpp
+[5.362s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/smoother_selector_node.hpp
+[5.362s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/follow_path_action.hpp
+[5.362s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_through_poses_action.hpp
+[5.363s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/progress_checker_selector_node.hpp
+[5.363s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_to_pose_action.hpp
+[5.363s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/wait_action.hpp
+[5.363s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/planner_selector_node.hpp
+[5.363s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/wait_cancel_node.hpp
+[5.363s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_through_poses_action.hpp
+[5.363s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/smooth_path_action.hpp
+[5.363s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/spin_cancel_node.hpp
+[5.363s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/spin_action.hpp
+[5.363s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/controller_selector_node.hpp
+[5.363s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_to_pose_action.hpp
+[5.363s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/drive_on_heading_action.hpp
+[5.363s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/back_up_action.hpp
+[5.364s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/clear_costmap_service.hpp
+[5.364s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/assisted_teleop_action.hpp
+[5.364s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/remove_passed_goals_action.hpp
+[5.364s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/reinitialize_global_localization_service.hpp
+[5.364s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/back_up_cancel_node.hpp
+[5.364s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/drive_on_heading_cancel_node.hpp
+[5.364s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/controller_cancel_node.hpp
+[5.364s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition
+[5.364s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_battery_charging_condition.hpp
+[5.364s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_path_valid_condition.hpp
+[5.364s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/globally_updated_goal_condition.hpp
+[5.364s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_stuck_condition.hpp
+[5.364s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/path_expiring_timer_condition.hpp
+[5.364s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/distance_traveled_condition.hpp
+[5.365s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/time_expired_condition.hpp
+[5.365s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/initial_pose_received_condition.hpp
+[5.365s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_battery_low_condition.hpp
+[5.365s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/transform_available_condition.hpp
+[5.365s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_updated_condition.hpp
+[5.365s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_reached_condition.hpp
+[5.365s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control
+[5.365s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/recovery_node.hpp
+[5.365s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/round_robin_node.hpp
+[5.365s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/pipeline_sequence.hpp
+[5.365s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator
+[5.365s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/rate_controller.hpp
+[5.366s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/path_longer_on_approach.hpp
+[5.366s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/distance_controller.hpp
+[5.366s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/speed_controller.hpp
+[5.366s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/goal_updated_controller.hpp
+[5.366s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/single_trigger_node.hpp
+[5.366s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/goal_updater_node.hpp
+[5.366s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_server.hpp
+[5.366s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_node.hpp
+[5.366s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_conversions.hpp
+[5.366s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_service_node.hpp
+[5.366s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_cancel_action_node.hpp
+[5.366s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/ros_topic_logger.hpp
+[5.366s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_server_impl.hpp
+[5.366s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/behavior_tree_engine.hpp
+[5.366s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/nav2_tree_nodes.xml
+[5.366s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.sh
+[5.366s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.dsv
+[5.367s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/share/ament_index/resource_index/package_run_dependencies/nav2_behavior_tree
+[5.367s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/share/ament_index/resource_index/parent_prefix_path/nav2_behavior_tree
+[5.367s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.sh
+[5.367s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.dsv
+[5.367s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.sh
+[5.373s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.dsv
+[5.373s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.bash
+[5.373s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.sh
+[5.374s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.zsh
+[5.374s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.dsv
+[5.374s] -- Installing: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/package.dsv
+[5.374s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/share/ament_index/resource_index/packages/nav2_behavior_tree
+[5.375s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.375s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_libraries-extras.cmake
+[5.375s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.375s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig.cmake
+[5.375s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig-version.cmake
+[5.376s] -- Up-to-date: /home/hazem/GolfCar_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/package.xml
+[5.376s] Invoked command in '/home/hazem/GolfCar_ws/build/nav2_behavior_tree' returned '0': CMAKE_PREFIX_PATH=/home/hazem/GolfCar_ws/install/nav2_util:/home/hazem/GolfCar_ws/install/nav2_msgs:/home/hazem/GolfCar_ws/install/nav2_common:/home/hazem/GolfCar_ws/install/velodyne:/home/hazem/GolfCar_ws/install/velodyne_pointcloud:/home/hazem/GolfCar_ws/install/velodyne_driver:/home/hazem/GolfCar_ws/install/velodyne_msgs:/home/hazem/GolfCar_ws/install/velodyne_laserscan:/home/hazem/GolfCar_ws/install/pointcloud_to_laserscan:/home/hazem/GolfCar_ws/install/nav2_system_tests:/home/hazem/GolfCar_ws/install/nav2_bringup:/home/hazem/GolfCar_ws/install/navigation2:/home/hazem/GolfCar_ws/install/nav2_smoother:/home/hazem/GolfCar_ws/install/nav2_graceful_controller:/home/hazem/GolfCar_ws/install/nav2_dwb_controller:/home/hazem/GolfCar_ws/install/nav2_controller:/home/hazem/GolfCar_ws/install/dwb_plugins:/home/hazem/GolfCar_ws/install/dwb_critics:/home/hazem/GolfCar_ws/install/dwb_core:/home/hazem/GolfCar_ws/install/nav_2d_utils:/home/hazem/GolfCar_ws/install/dwb_msgs:/home/hazem/GolfCar_ws/install/nav_2d_msgs:/home/hazem/GolfCar_ws/install/nav2_waypoint_follower:/home/hazem/GolfCar_ws/install/nav2_theta_star_planner:/home/hazem/GolfCar_ws/install/nav2_smac_planner:/home/hazem/GolfCar_ws/install/nav2_rotation_shim_controller:/home/hazem/GolfCar_ws/install/nav2_regulated_pure_pursuit_controller:/home/hazem/GolfCar_ws/install/nav2_planner:/home/hazem/GolfCar_ws/install/nav2_navfn_planner:/home/hazem/GolfCar_ws/install/nav2_mppi_controller:/home/hazem/GolfCar_ws/install/nav2_constrained_smoother:/home/hazem/GolfCar_ws/install/nav2_bt_navigator:/home/hazem/GolfCar_ws/install/nav2_behaviors:/home/hazem/GolfCar_ws/install/nav2_core:/home/hazem/GolfCar_ws/install/nav2_collision_monitor:/home/hazem/GolfCar_ws/install/costmap_queue:/home/hazem/GolfCar_ws/install/nav2_costmap_2d:/home/hazem/GolfCar_ws/install/nav2_voxel_grid:/home/hazem/GolfCar_ws/install/nav2_velocity_smoother:/home/hazem/GolfCar_ws/install/nav2_rviz_plugins:/home/hazem/GolfCar_ws/install/nav2_map_server:/home/hazem/GolfCar_ws/install/nav2_lifecycle_manager:/home/hazem/GolfCar_ws/install/nav2_behavior_tree:/home/hazem/GolfCar_ws/install/nav2_amcl:/home/hazem/GolfCar_ws/install/golfcar_control:/home/hazem/GolfCar_ws/install/nav2_simple_commander:/opt/ros/humble LD_LIBRARY_PATH=/home/hazem/GolfCar_ws/install/nav2_util/lib:/home/hazem/GolfCar_ws/install/nav2_msgs/lib:/home/hazem/GolfCar_ws/install/velodyne_pointcloud/lib:/home/hazem/GolfCar_ws/install/velodyne_driver/lib:/home/hazem/GolfCar_ws/install/velodyne_msgs/lib:/home/hazem/GolfCar_ws/install/velodyne_laserscan/lib:/home/hazem/GolfCar_ws/install/pointcloud_to_laserscan/lib:/home/hazem/GolfCar_ws/install/nav2_smoother/lib:/home/hazem/GolfCar_ws/install/nav2_graceful_controller/lib:/home/hazem/GolfCar_ws/install/nav2_controller/lib:/home/hazem/GolfCar_ws/install/dwb_plugins/lib:/home/hazem/GolfCar_ws/install/dwb_critics/lib:/home/hazem/GolfCar_ws/install/dwb_core/lib:/home/hazem/GolfCar_ws/install/nav_2d_utils/lib:/home/hazem/GolfCar_ws/install/dwb_msgs/lib:/home/hazem/GolfCar_ws/install/nav_2d_msgs/lib:/home/hazem/GolfCar_ws/install/nav2_waypoint_follower/lib:/home/hazem/GolfCar_ws/install/nav2_theta_star_planner/lib:/home/hazem/GolfCar_ws/install/nav2_smac_planner/lib:/home/hazem/GolfCar_ws/install/nav2_rotation_shim_controller/lib:/home/hazem/GolfCar_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/hazem/GolfCar_ws/install/nav2_planner/lib:/home/hazem/GolfCar_ws/install/nav2_navfn_planner/lib:/home/hazem/GolfCar_ws/install/nav2_mppi_controller/lib:/home/hazem/GolfCar_ws/install/nav2_constrained_smoother/lib:/home/hazem/GolfCar_ws/install/nav2_bt_navigator/lib:/home/hazem/GolfCar_ws/install/nav2_behaviors/lib:/home/hazem/GolfCar_ws/install/nav2_collision_monitor/lib:/home/hazem/GolfCar_ws/install/costmap_queue/lib:/home/hazem/GolfCar_ws/install/nav2_costmap_2d/lib:/home/hazem/GolfCar_ws/install/nav2_voxel_grid/lib:/home/hazem/GolfCar_ws/install/nav2_velocity_smoother/lib:/home/hazem/GolfCar_ws/install/nav2_rviz_plugins/lib:/home/hazem/GolfCar_ws/install/nav2_map_server/lib:/home/hazem/GolfCar_ws/install/nav2_lifecycle_manager/lib:/home/hazem/GolfCar_ws/install/nav2_behavior_tree/lib:/home/hazem/GolfCar_ws/install/nav2_amcl/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/hazem/GolfCar_ws/build/nav2_behavior_tree

@@ -1,0 +1,145 @@
+[ 50%] Built target gps_to_odom_node
+[100%] Built target orientation_calculator_node
+[100%] Built target ament_cmake_python_copy_golfcar_control
+running egg_info
+writing golfcar_control.egg-info/PKG-INFO
+writing dependency_links to golfcar_control.egg-info/dependency_links.txt
+writing top-level names to golfcar_control.egg-info/top_level.txt
+reading manifest file 'golfcar_control.egg-info/SOURCES.txt'
+writing manifest file 'golfcar_control.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_golfcar_control_egg
+-- Install configuration: ""
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/lib/golfcar_control/gps_to_odom_node
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/lib/golfcar_control/orientation_calculator_node
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/config
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/config/keepout.yaml
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/config/speed_limit_sim.yaml
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/config/navsat_transform.yaml
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/config/keepout_sim.yaml
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/config/speed_limit.yaml
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/config/navigate_w_recovery_and_replanning_only_if_path_becomes_invalid.xml
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/config/nav2_params.yaml
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/config/ekf.yaml
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/config/modified_navigate_to_pose_w_replanning_and_recovery.xml
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/config/modified_navigate_through_poses_w_replanning_and_recovery.xml
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/config/nav2_params_sim.yaml
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/urdf
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/urdf/inertial_macros.xacro
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/urdf/golf_car.xacro
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/urdf/golf_car2.xacro
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/maps
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/maps/speed_limit_mask_sim.yaml
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/maps/GIU_map.yaml
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/maps/keepout_mask_sim.pgm
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/maps/speed_limit_mask.yaml
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/maps/keepout_mask_sim.yaml
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/maps/golfCar_map_sim.pgm
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/maps/speed_limit_mask.pgm
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/maps/keepout_mask.yaml
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/maps/golfCar_map_sim.data
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/maps/speed_limit_mask_sim.pgm
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/maps/GIU_map.pgm
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/maps/golfCar_map_sim.yaml
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/maps/keepout_mask.pgm
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/maps/golfCar_map_sim.posegraph
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/maps/old
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/maps/old/mapfinal7.posegraph
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/maps/old/mapfinal5.posegraph
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/maps/old/mapfinal8.data
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/maps/old/mapfinalfinal.data
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/maps/old/mapfinal8.yaml
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/maps/old/mapfinal7.data
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/maps/old/speed_limit_mask.pgm
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/maps/old/mapfinal5.yaml
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/maps/old/mapfinal5.data
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/maps/old/mapfinal7.pgm
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/maps/old/mapfinal7.yaml
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/maps/old/mapfinal5.pgm
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/maps/old/mapfinalfinal.posegraph
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/maps/old/mapfinal8.pgm
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/maps/old/mapfinal8.posegraph
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/maps/old/mapfinalfinal.pgm
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/rviz
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/rviz/nav2.rviz
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/rviz/robot_with_map.rviz
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/rviz/robot.rviz
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/worlds
+-- Installing: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/worlds/golf_car_world
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/worlds/golf_car_world2
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/worlds/no_robot_world
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/launch
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/launch/gazebo_launch.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/launch/nav2_launch.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/launch/keepout_launch.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/launch/speed_limit_launch.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/launch/__pycache__
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/launch/__pycache__/keepout.cpython-310.pyc
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/launch/__pycache__/robot_localization_launch.cpython-310.pyc
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/launch/__pycache__/real_car_launch.cpython-310.pyc
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/launch/__pycache__/ekf.launch.cpython-310.pyc
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/launch/__pycache__/speed_limit_launch.cpython-310.pyc
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/launch/__pycache__/navsat_transform.launch.cpython-310.pyc
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/launch/__pycache__/gazebo_launch4.cpython-310.pyc
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/launch/nav2_launch_sim.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/launch/keepout_launch_sim.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/launch/speed_limit_launch_sim.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/launch/ekf.launch.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/launch/navsat_transform.launch.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/launch/robot_localization_launch.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/environment/pythonpath.sh
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/environment/pythonpath.dsv
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/local/lib/python3.10/dist-packages/golfcar_control-0.0.0-py3.10.egg-info
+-- Installing: /home/hazem/GolfCar_ws/install/golfcar_control/local/lib/python3.10/dist-packages/golfcar_control-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/hazem/GolfCar_ws/install/golfcar_control/local/lib/python3.10/dist-packages/golfcar_control-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/hazem/GolfCar_ws/install/golfcar_control/local/lib/python3.10/dist-packages/golfcar_control-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/hazem/GolfCar_ws/install/golfcar_control/local/lib/python3.10/dist-packages/golfcar_control-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/local/lib/python3.10/dist-packages/golfcar_control
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/local/lib/python3.10/dist-packages/golfcar_control/publish_goal_exact_xy.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/local/lib/python3.10/dist-packages/golfcar_control/stop_car_telegram.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/local/lib/python3.10/dist-packages/golfcar_control/publish_initial_pose.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/local/lib/python3.10/dist-packages/golfcar_control/publish_gps_telegram.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/local/lib/python3.10/dist-packages/golfcar_control/send_commands.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/local/lib/python3.10/dist-packages/golfcar_control/stop_car_flask.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/local/lib/python3.10/dist-packages/golfcar_control/__init__.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/local/lib/python3.10/dist-packages/golfcar_control/publish_gps_flask.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/local/lib/python3.10/dist-packages/golfcar_control/publish_goal_sim_exact_xy.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/local/lib/python3.10/dist-packages/golfcar_control/gps_to_odom.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/local/lib/python3.10/dist-packages/golfcar_control/simulate_scan.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/local/lib/python3.10/dist-packages/golfcar_control/publish_goal_sim.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/local/lib/python3.10/dist-packages/golfcar_control/odometry.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/local/lib/python3.10/dist-packages/golfcar_control/publish_goal.py
+Listing '/home/hazem/GolfCar_ws/install/golfcar_control/local/lib/python3.10/dist-packages/golfcar_control'...
+Compiling '/home/hazem/GolfCar_ws/install/golfcar_control/local/lib/python3.10/dist-packages/golfcar_control/publish_goal_exact_xy.py'...
+***   File "/home/hazem/GolfCar_ws/install/golfcar_control/local/lib/python3.10/dist-packages/golfcar_control/publish_goal_exact_xy.py", line 21
+    Published Topics:
+              ^^^^^^
+SyntaxError: invalid syntax
+
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/lib/golfcar_control/gps_to_odom.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/lib/golfcar_control/odometry.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/lib/golfcar_control/publish_goal.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/lib/golfcar_control/publish_goal_exact_xy.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/lib/golfcar_control/publish_goal_sim.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/lib/golfcar_control/publish_goal_sim_exact_xy.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/lib/golfcar_control/publish_gps_flask.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/lib/golfcar_control/publish_gps_telegram.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/lib/golfcar_control/publish_initial_pose.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/lib/golfcar_control/simulate_scan.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/lib/golfcar_control/send_commands.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/lib/golfcar_control/stop_car_flask.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/lib/golfcar_control/stop_car_telegram.py
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/ament_index/resource_index/package_run_dependencies/golfcar_control
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/ament_index/resource_index/parent_prefix_path/golfcar_control
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/environment/ament_prefix_path.sh
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/environment/path.sh
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/environment/path.dsv
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/local_setup.bash
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/local_setup.sh
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/local_setup.zsh
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/local_setup.dsv
+-- Installing: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/package.dsv
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/ament_index/resource_index/packages/golfcar_control
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/cmake/golfcar_controlConfig.cmake
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/cmake/golfcar_controlConfig-version.cmake
+-- Up-to-date: /home/hazem/GolfCar_ws/install/golfcar_control/share/golfcar_control/package.xml

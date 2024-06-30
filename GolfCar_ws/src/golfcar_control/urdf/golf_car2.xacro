@@ -1,0 +1,485 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro"  name="golf_car">
+
+   <xacro:include filename="inertial_macros.xacro"/>
+
+    <material name="white">
+        <color rgba="1 1 1 1" />
+    </material>
+
+    <material name="orange">
+        <color rgba="1 0.3 0.1 1"/>
+    </material>
+
+    <material name="blue">
+        <color rgba="0.2 0.2 1 1"/>
+    </material>
+
+    <material name="black">
+        <color rgba="0 0 0 1"/>
+    </material>
+
+    <material name="red">
+        <color rgba="1 0 0 1"/>
+    </material>
+
+    <!-- base_link-->
+
+    <link name="base_footprint" />
+
+    <!-- base_footprint-->
+
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <box size="3.28 1 1.75"/>
+            </geometry>
+            <origin xyz="0.96 0 0.875" rpy="0 0 0" />
+            <material name="red" />
+        </visual>
+        <collision>
+            <geometry>
+                <box size="3.28 1 1.75"/>
+            </geometry>
+            <origin xyz="0 0 0.875" rpy="0 0 0" />
+           
+        </collision>
+        <xacro:inertial_box mass="0.1" x="3.28" y="1" z="1.75" >
+            <origin xyz="0 0 0.875" rpy="0 0 0" />
+        </xacro:inertial_box>
+
+    </link>
+
+
+    <joint name="main_joint" type="fixed">
+        <parent link="base_footprint"/>
+        <child link="base_link" />
+        <origin xyz="0 0 0.45" rpy="0 0 0" />
+    </joint>
+
+    <!-- front_link-->
+
+    <link name="front_link">
+        <visual>
+            <geometry>
+                <box size="0.42 1 0.75"/>
+            </geometry>
+            <origin xyz="0 0 0.375" rpy="0 0 0" />
+            <material name="red" />
+        </visual>
+
+        <collision>
+            <geometry>
+                <box size="0.42 1 0.75"/>
+            </geometry>
+            <origin xyz="0 0 0.375" rpy="0 0 0" />
+
+        </collision>
+        <xacro:inertial_box mass="0.1" x="0.42" y="1" z="0.75" >
+            <origin xyz="0 0 0.375" rpy="0 0 0" />
+        </xacro:inertial_box>
+    </link>
+
+    <joint name="base_front_joint" type="fixed">
+        <parent link="base_link" />
+        <child link="front_link" />
+        <origin xyz="2.81 0 0" rpy="0 0 0" />
+    </joint>
+
+    <!-- rear_wheels-->
+
+
+    <link name="Left_rear_wheel">
+        <visual>
+            <geometry>
+                <cylinder radius="0.45" length="0.2" />
+            </geometry>
+            <material name="blue" />
+        </visual>
+        <collision>
+            <geometry>
+                <sphere radius="0.45"/>
+            </geometry>
+
+        </collision>
+        <xacro:inertial_cylinder mass="1.5" length="0.2" radius="0.45" >
+            <origin xyz="0 0 0" rpy="0 0 0" />
+
+        </xacro:inertial_cylinder>
+    </link>
+
+    <link name="Right_rear_wheel">
+        <visual>
+            <geometry>
+                <cylinder radius="0.45" length="0.2" />
+            </geometry>
+            <material name="blue" />
+        </visual>
+        <collision>
+            <geometry>
+                <sphere radius="0.45"/>
+            </geometry>
+
+        </collision>
+        <xacro:inertial_cylinder mass="1.5" length="0.2" radius="0.45" >
+            <origin xyz="0 0 0" rpy="0 0 0" />
+
+        </xacro:inertial_cylinder>
+    </link>
+
+    <joint name="Left_rear_wheel_joint" type="continuous">
+        <parent link="base_link" />
+        <child link="Left_rear_wheel" />
+        <origin xyz="0.0 0.6 0" rpy="-${pi/2} 0 0" />
+        <axis xyz="0 0 1"/>
+    </joint>
+
+    <joint name="Right_rear_wheel_joint" type="continuous">
+        <parent link="base_link" />
+        <child link="Right_rear_wheel" />
+        <origin xyz="0.0 -0.6 0" rpy="${pi/2}  0 0" />
+        <axis xyz="0 0 -1"/>
+    </joint>
+
+    <!-- front_wheels-->
+
+    <link name="steering_link">
+        <visual>
+            <geometry>
+                <box size="0.01 0.01 0.01"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <material name="red" />
+        </visual>
+        <collision>
+            <geometry>
+                <box size="0.01 0.01 0.01"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+           
+        </collision>
+        <xacro:inertial_box mass="0.01" x="0.01" y="0.01" z="0.01" >
+            <origin xyz="0 0 0" rpy="0 0 0" />
+        </xacro:inertial_box>
+
+    </link>
+
+    <joint name="steering_joint" type="revolute">
+        <parent link="front_link" />
+        <child link="steering_link" />
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <limit effort="100" lower="-0.41" upper="0.41" velocity="0.5"/> 
+        <axis xyz="0 0 1"/>
+    </joint>
+
+    <link name="Right_front_wheel">
+        <visual>
+            <geometry>
+                <cylinder radius="0.45" length="0.2" />
+            </geometry>
+            <material name="blue" />
+        </visual>
+        <collision>
+            <geometry>
+                <sphere radius="0.45"/>
+            </geometry>
+
+        </collision>
+        <xacro:inertial_cylinder mass="1.5" length="0.2" radius="0.45" >
+            <origin xyz="0 0 0" rpy="0 0 0" />
+
+        </xacro:inertial_cylinder>
+    </link>
+    
+    <link name="Left_front_wheel">
+        <visual>
+            <geometry>
+                <cylinder radius="0.45" length="0.2" />
+            </geometry>
+            <material name="blue" />
+        </visual>
+        <collision>
+            <geometry>
+                <sphere radius="0.45"/>
+            </geometry>
+        </collision>
+        <xacro:inertial_cylinder mass="1.5" length="0.2" radius="0.45" >
+            <origin xyz="0 0 0" rpy="0 0 0" />
+
+        </xacro:inertial_cylinder>
+    </link>
+    
+    
+    <link name="left_steer_link">
+        <visual>
+            <geometry>
+                <box size="0.01 0.01 0.01"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <material name="blue" />
+        </visual>
+        <collision>
+            <geometry>
+                <box size="0.01 0.01 0.01"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+           
+        </collision>
+        <xacro:inertial_box mass="0.01" x="0.01" y="0.01" z="0.01" >
+            <origin xyz="0 0 0" rpy="0 0 0" />
+        </xacro:inertial_box>
+
+    </link>
+    <link name="right_steer_link">
+        <visual>
+            <geometry>
+                <box size="0.01 0.01 0.01"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <material name="blue" />
+        </visual>
+        <collision>
+            <geometry>
+                <box size="0.01 0.01 0.01"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+           
+        </collision>
+        <xacro:inertial_box mass="0.01" x="0.01" y="0.01" z="0.01" >
+            <origin xyz="0 0 0" rpy="0 0 0" />
+        </xacro:inertial_box>
+
+    </link>
+    
+    <joint name="left_steer_joint" type="revolute">
+        <parent link="front_link" />
+        <child link="left_steer_link" />
+        <origin xyz="0 0.6 0" rpy="0 0 0" />
+        <limit effort="10" lower="-0.45" upper="0.45" velocity="0.1"/> 
+        <axis xyz="0 0 1"/>
+    </joint>   
+    <joint name="right_steer_joint" type="revolute">
+        <parent link="front_link" />
+        <child link="right_steer_link" />
+        <origin xyz="0 -0.6 0" rpy="0 0 0" />
+        <limit effort="10" lower="-0.45" upper="0.45" velocity="0.1"/> 
+        <axis xyz="0 0 1"/>
+    </joint>
+
+
+    <joint name="Left_front_wheel_joint" type="continuous">
+        <parent link="left_steer_link" />
+        <child link="Left_front_wheel" />
+        <origin xyz="0 0 0" rpy="-${pi/2} 0 0" />
+        <axis xyz="0 0 1"/>
+    </joint>
+
+    <joint name="Right_front_wheel_joint" type="continuous">
+        <parent link="right_steer_link" />
+        <child link="Right_front_wheel" />
+        <origin xyz="0 0 0" rpy="${pi/2} 0 0" />
+        <axis xyz="0 0 -1"/>
+    </joint>
+
+
+     <!-- velodyne-->
+        <link name="laser_frame">
+        <visual>
+            <geometry>
+                <cylinder radius="0.1" length="0.072" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <material name="blue" />
+        </visual>
+    </link>
+    
+    <joint name="base_lidar_joint" type="fixed">
+        <parent link="base_link" />
+        <child link="laser_frame" />
+        <origin xyz="2.81 0 0.786" rpy="0 0 0" />
+    </joint>  
+
+    <gazebo reference="base_link">
+        <material>Gazebo/Red</material>
+    </gazebo>
+    <gazebo reference="front_link">
+        <material>Gazebo/Red</material>
+    </gazebo>
+    <gazebo reference="steering_link">
+        <material>Gazebo/Red</material>
+    </gazebo>
+    <gazebo reference="Left_front_wheel">
+        <material>Gazebo/Blue</material>
+    </gazebo>
+    <gazebo reference="Right_front_wheel">
+        <material>Gazebo/Blue</material>
+    </gazebo>
+    <gazebo reference="Left_rear_wheel">
+        <material>Gazebo/Blue</material>
+    </gazebo>
+    <gazebo reference="Right_rear_wheel">
+        <material>Gazebo/Blue</material>
+    </gazebo>
+    <gazebo reference="left_steer_link">
+        <material>Gazebo/Blue</material>
+    </gazebo>
+    <gazebo reference="right_steer_link">
+        <material>Gazebo/Blue</material>
+    </gazebo>
+
+    
+    <gazebo reference="laser_frame">
+        <material>Gazebo/Blue</material>
+
+        <sensor name="laser" type="ray">
+            <pose> 0 0 0 0 0 0 </pose>
+            <visualize>false</visualize>
+            <update_rate>10.0</update_rate>
+            <ray>
+                <scan>
+                    <horizontal>
+                        <samples>2000</samples>
+                        <min_angle>-1.57</min_angle>
+                        <max_angle>1.57</max_angle>
+                    </horizontal>
+                </scan>
+                <range>
+                    <min>0.3</min>
+                    <max>100</max>
+                </range>
+            </ray>
+            <plugin name="laser_controller" filename="libgazebo_ros_ray_sensor.so">
+                <ros>
+                    <argument>~/out:=scan</argument>
+                </ros>
+                <output_type>sensor_msgs/LaserScan</output_type>
+                <frame_name>laser_frame</frame_name>
+            </plugin>
+        </sensor>
+    </gazebo>
+    
+    
+    <gazebo>
+	<plugin name="gazebo_ros_ackermann_drive" filename="libgazebo_ros_ackermann_drive.so">
+
+	  <update_rate>100.0</update_rate>
+
+	  <!-- wheels -->
+	  <front_left_joint>Left_front_wheel_joint</front_left_joint>
+	  <front_right_joint>Right_front_wheel_joint</front_right_joint>
+	  <rear_left_joint>Left_rear_wheel_joint</rear_left_joint>
+	  <rear_right_joint>Right_rear_wheel_joint</rear_right_joint>
+	  <left_steering_joint>left_steer_joint</left_steering_joint>
+	  <right_steering_joint>right_steer_joint</right_steering_joint>
+
+	  <!-- Max absolute steer angle for tyre in radians-->
+	  <!-- Any cmd_vel angular z greater than this would be capped -->
+	  <max_steer>0.6458</max_steer>
+
+	  <!-- Max absolute steering angle of steering wheel -->
+	  <max_steering_angle>7.85</max_steering_angle>
+
+	  <!-- Max absolute linear speed in m/s -->
+	  <max_speed>20</max_speed>
+	  
+	  <!-- PID tuning -->
+	  <left_steering_pid_gain>100 0 1</left_steering_pid_gain>
+	  <left_steering_i_range>0 0</left_steering_i_range>
+	  <right_steering_pid_gain>100 0 1</right_steering_pid_gain>
+	  <right_steering_i_range>0 0</right_steering_i_range>
+	  <linear_velocity_pid_gain>100 0 1</linear_velocity_pid_gain>
+	  <linear_velocity_i_range>0 0</linear_velocity_i_range>
+
+	  <!-- output -->
+	  <publish_odom>true</publish_odom>
+	  <publish_odom_tf>true</publish_odom_tf>
+	  <publish_wheel_tf>false</publish_wheel_tf>
+	  <publish_distance>true</publish_distance>
+	  <publish_steerangle>true</publish_steerangle>
+
+	  <odometry_frame>odom</odometry_frame>
+	  <robot_base_frame>base_footprint</robot_base_frame>
+
+	</plugin>
+    </gazebo>
+    
+
+    
+    <gazebo>
+          <plugin name="robot_joint_state" filename="libgazebo_ros_joint_state_publisher.so">
+        <ros>
+          <!-- <namespace>/tb3</namespace> -->
+            <remapping>~/out:=joint_states</remapping>
+        </ros>
+        <update_rate>100.0</update_rate>
+        <joint_name>Left_front_wheel_joint</joint_name>
+        <joint_name>Right_front_wheel_joint</joint_name>
+        <joint_name>Left_rear_wheel_joint</joint_name>
+        <joint_name>Right_rear_wheel_joint</joint_name>
+        <joint_name>left_steer_joint</joint_name>
+        <joint_name>right_steer_joint</joint_name>
+        <joint_name>steering_joint</joint_name>
+        </plugin>
+      </gazebo>
+
+    <link name="gps_link">
+        <visual>
+            <geometry>
+                <box size="0.01 0.01 0.01"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <material name="red" />
+        </visual>
+        <collision>
+            <geometry>
+                <box size="0.01 0.01 0.01"/>
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+           
+        </collision>
+        <xacro:inertial_box mass="0.01" x="0.01" y="0.01" z="0.01" >
+            <origin xyz="0 0 0" rpy="0 0 0" />
+        </xacro:inertial_box>
+
+    </link>
+    
+    <!-- Joint to attach the GPS link to the base link -->
+    <joint name="gps_joint" type="fixed">
+            <parent link="base_link" />
+            <child link="gps_link"/>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            </joint>
+            
+           
+  <!-- Gazebo Plugin for GPS using reference -->
+  <gazebo reference="gps_link">
+    <material>Gazebo/Red</material>
+    <sensor name="tb3_gps" type="gps">
+      <always_on>true</always_on>
+      <update_rate>1.0</update_rate>
+      <pose>0 0 0 0 0 0</pose>
+      <gps>
+        <position_sensing>
+          <horizontal>
+            <noise type="gaussian">
+              <mean>0.0</mean>
+              <stddev>5.0</stddev>
+            </noise>
+          </horizontal>
+          <vertical>
+            <noise type="gaussian">
+              <mean>0.0</mean>
+              <stddev>5.0</stddev>
+            </noise>
+          </vertical>
+        </position_sensing>
+      </gps>
+      <plugin name="gps_plugin" filename="libgazebo_ros_gps_sensor.so">
+        <ros>
+          <remapping>~/out:=/gps/fix</remapping>
+        </ros>
+      </plugin>
+    </sensor>
+  </gazebo>
+  
+</robot>

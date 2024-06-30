@@ -1,0 +1,7 @@
+{
+  "package_name": "velodyne_msgs",
+  "non_idl_tuples": [
+    "/home/hazem/GolfCar_ws/src/velodyne/velodyne_msgs:msg/VelodynePacket.msg",
+    "/home/hazem/GolfCar_ws/src/velodyne/velodyne_msgs:msg/VelodyneScan.msg"
+  ]
+}

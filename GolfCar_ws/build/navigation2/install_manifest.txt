@@ -1,0 +1,15 @@
+/home/hazem/GolfCar_ws/install/navigation2/share/ament_index/resource_index/package_run_dependencies/navigation2
+/home/hazem/GolfCar_ws/install/navigation2/share/ament_index/resource_index/parent_prefix_path/navigation2
+/home/hazem/GolfCar_ws/install/navigation2/share/navigation2/environment/ament_prefix_path.sh
+/home/hazem/GolfCar_ws/install/navigation2/share/navigation2/environment/ament_prefix_path.dsv
+/home/hazem/GolfCar_ws/install/navigation2/share/navigation2/environment/path.sh
+/home/hazem/GolfCar_ws/install/navigation2/share/navigation2/environment/path.dsv
+/home/hazem/GolfCar_ws/install/navigation2/share/navigation2/local_setup.bash
+/home/hazem/GolfCar_ws/install/navigation2/share/navigation2/local_setup.sh
+/home/hazem/GolfCar_ws/install/navigation2/share/navigation2/local_setup.zsh
+/home/hazem/GolfCar_ws/install/navigation2/share/navigation2/local_setup.dsv
+/home/hazem/GolfCar_ws/install/navigation2/share/navigation2/package.dsv
+/home/hazem/GolfCar_ws/install/navigation2/share/ament_index/resource_index/packages/navigation2
+/home/hazem/GolfCar_ws/install/navigation2/share/navigation2/cmake/navigation2Config.cmake
+/home/hazem/GolfCar_ws/install/navigation2/share/navigation2/cmake/navigation2Config-version.cmake
+/home/hazem/GolfCar_ws/install/navigation2/share/navigation2/package.xml
