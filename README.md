@@ -4,6 +4,8 @@ An autonomous golf cart that navigates a university campus using a SLAM-created 
 ## Project Overview
 This project involves the development of an autonomous golf cart capable of precise navigation within a university campus. The system integrates various sensors and algorithms to achieve robust and reliable navigation and obstacle avoidance.
 
+![Workflow](images/golfcar_flowchart.PNG)
+
 ## Key Features
 - **Arduino Integration:** 
   - One Arduino controls the car by sending velocity and steering angle commands.
