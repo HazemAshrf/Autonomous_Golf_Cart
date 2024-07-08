@@ -4,7 +4,7 @@ An autonomous golf cart that navigates a university campus using a SLAM-created 
 ## Project Overview
 This project involves the development of an autonomous golf cart capable of precise navigation within a university campus. The system integrates various sensors and algorithms to achieve robust and reliable navigation and obstacle avoidance.
 
-![Workflow](images/golfcart_flowchart.PNG)
+![Workflow](images/golfcar_flowchart.PNG)
 
 ## Key Features
 - **Arduino Integration:** 
@@ -30,7 +30,7 @@ This project involves the development of an autonomous golf cart capable of prec
   - `publish_gps_flask.py` or `publish_gps_telegram.py` can be used to send GPS data from the phone, which is then converted to map coordinates by `gps_to_odom.py`.
   
 ## Demonstration Video
-Watch the autonomous golf cart in action: [Demo Video](images/demo_video.MP4)
+Watch the autonomous golf cart in action: [Demo Video](images/demo_video.mp4)
 
 ## Getting Started
 
