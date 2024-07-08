@@ -28,6 +28,9 @@ This project involves the development of an autonomous golf cart capable of prec
 - **GPS Integration:** 
   - Enhances odometry using a GPS sensor or a phone.
   - `publish_gps_flask.py` or `publish_gps_telegram.py` can be used to send GPS data from the phone, which is then converted to map coordinates by `gps_to_odom.py`.
+  
+## Demonstration Video
+Watch the autonomous golf cart in action: [Demo Video](images/video.MP4)
 
 ## Getting Started
 
