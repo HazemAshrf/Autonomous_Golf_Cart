@@ -1,14 +1,14 @@
-# Autonomous_Golf_Car
+# Autonomous_Golf_Cart
 An autonomous golf cart that navigates a university campus using a SLAM-created map. It receives the target GPS location via Telegram and efficiently navigates to the destination while avoiding obstacles.
 
 ## Project Overview
 This project involves the development of an autonomous golf cart capable of precise navigation within a university campus. The system integrates various sensors and algorithms to achieve robust and reliable navigation and obstacle avoidance.
 
-![Workflow](images/golfcar_flowchart.PNG)
+![Workflow](images/golfcart_flowchart.PNG)
 
 ## Key Features
 - **Arduino Integration:** 
-  - One Arduino controls the car by sending velocity and steering angle commands.
+  - One Arduino controls the golf cart by sending velocity and steering angle commands.
   - Another Arduino connects to the sensors (IMU and proximity sensors acting as wheel encoders).
 - **Odometry:** Python script (`odometry.py`) gathers sensor data and calculates odometry.
 - **LiDAR Processing:** Uses the Velodyne package to obtain LiDAR point clouds and the `pointcloud_to_laserscan` package to convert 3D point clouds into 2D laser scans.
@@ -24,13 +24,13 @@ This project involves the development of an autonomous golf cart capable of prec
 - **Steering Control:** 
   - `steering.py` converts `cmd_vel` messages from `nav2` into steering angle and velocity commands for the Arduino.
 - **Emergency Stop:** 
-  - Listens to the `/stop_car` topic and stops the car when a signal is sent by a phone to`stop_car_telegram.py` or `stop_car_flask.py`.
+  - Listens to the `/stop_car` topic and stops the golf cart when a signal is sent by a phone to`stop_car_telegram.py` or `stop_car_flask.py`.
 - **GPS Integration:** 
   - Enhances odometry using a GPS sensor or a phone.
   - `publish_gps_flask.py` or `publish_gps_telegram.py` can be used to send GPS data from the phone, which is then converted to map coordinates by `gps_to_odom.py`.
   
 ## Demonstration Video
-Watch the autonomous golf cart in action: [Demo Video](images/video.MP4)
+Watch the autonomous golf cart in action: [Demo Video](images/demo_video.MP4)
 
 ## Getting Started
 
@@ -42,8 +42,8 @@ Watch the autonomous golf cart in action: [Demo Video](images/video.MP4)
 ### Installation
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/HazemAshrf/Autonomous_Golf_Car.git
-    cd Autonomous_Golf_Car
+    git clone https://github.com/HazemAshrf/Autonomous_Golf_Cart.git
+    cd Autonomous_Golf_Cart
     colcon build
     ```
 
@@ -58,4 +58,4 @@ This project includes modified versions of the following packages:
 - [velodyne](https://github.com/ros-drivers/velodyne) - Velodyne Lidar Driver
 - [pointcloud_to_laserscan](https://github.com/ros-perception/pointcloud_to_laserscan) - Pointcloud to Laser Scan Conversion
 
-I have modified these packages to fit the needs of my autonomous golf car project. All original licenses and acknowledgments are retained.
+I have modified these packages to fit the needs of my autonomous golf cart project. All original licenses and acknowledgments are retained.
