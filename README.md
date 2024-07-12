@@ -32,6 +32,9 @@ This project involves the development of an autonomous golf cart capable of prec
 ## Demonstration Video
 Watch the autonomous golf cart in action: [Demo Video](images/demo_video.MP4)
 
+## Documentation
+For a comprehensive guide and detailed documentation, please refer to our [Detailed Documentation](Autonomous_Golf_Cart_Project.pdf).
+
 ## Getting Started
 
 ### Prerequisites
